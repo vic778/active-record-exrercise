@@ -1,0 +1,68 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (7.0.4)
+      activesupport (= 7.0.4)
+    activerecord (7.0.4)
+      activemodel (= 7.0.4)
+      activesupport (= 7.0.4)
+    activesupport (7.0.4)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    byebug (11.1.3)
+    coderay (1.1.3)
+    concurrent-ruby (1.1.10)
+    database_cleaner (2.0.1)
+      database_cleaner-active_record (~> 2.0.0)
+    database_cleaner-active_record (2.0.1)
+      activerecord (>= 5.a)
+      database_cleaner-core (~> 2.0.0)
+    database_cleaner-core (2.0.1)
+    diff-lcs (1.5.0)
+    factory_girl (4.9.0)
+      activesupport (>= 3.0.0)
+    i18n (1.12.0)
+      concurrent-ruby (~> 1.0)
+    method_source (1.0.0)
+    minitest (5.16.3)
+    pg (1.4.4)
+    pry (0.14.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    rake (13.0.6)
+    rspec (3.12.0)
+      rspec-core (~> 3.12.0)
+      rspec-expectations (~> 3.12.0)
+      rspec-mocks (~> 3.12.0)
+    rspec-core (3.12.0)
+      rspec-support (~> 3.12.0)
+    rspec-expectations (3.12.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-mocks (3.12.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-support (3.12.0)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  activerecord
+  byebug
+  database_cleaner
+  factory_girl
+  pg
+  pry
+  rake
+  rspec
+
+RUBY VERSION
+   ruby 3.1.2p20
+
+BUNDLED WITH
+   2.3.24
